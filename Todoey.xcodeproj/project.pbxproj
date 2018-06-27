@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EA44F37B20E0AE4A000ED01A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44F37A20E0AE4A000ED01A /* AppDelegate.swift */; };
-		EA44F37D20E0AE4A000ED01A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44F37C20E0AE4A000ED01A /* ViewController.swift */; };
+		EA44F37D20E0AE4A000ED01A /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44F37C20E0AE4A000ED01A /* TodoListViewController.swift */; };
 		EA44F38020E0AE4A000ED01A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA44F37E20E0AE4A000ED01A /* Main.storyboard */; };
 		EA44F38220E0AE4A000ED01A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA44F38120E0AE4A000ED01A /* Assets.xcassets */; };
 		EA44F38520E0AE4A000ED01A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA44F38320E0AE4A000ED01A /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		EA44F37720E0AE49000ED01A /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA44F37A20E0AE4A000ED01A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA44F37C20E0AE4A000ED01A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA44F37C20E0AE4A000ED01A /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		EA44F37F20E0AE4A000ED01A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA44F38120E0AE4A000ED01A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA44F38420E0AE4A000ED01A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				EA44F37A20E0AE4A000ED01A /* AppDelegate.swift */,
-				EA44F37C20E0AE4A000ED01A /* ViewController.swift */,
+				EA44F37C20E0AE4A000ED01A /* TodoListViewController.swift */,
 				EA44F37E20E0AE4A000ED01A /* Main.storyboard */,
 				EA44F38120E0AE4A000ED01A /* Assets.xcassets */,
 				EA44F38320E0AE4A000ED01A /* LaunchScreen.storyboard */,
@@ -91,11 +91,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Ng Thiam Soon";
 				TargetAttributes = {
 					EA44F37620E0AE49000ED01A = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA44F37D20E0AE4A000ED01A /* ViewController.swift in Sources */,
+				EA44F37D20E0AE4A000ED01A /* TodoListViewController.swift in Sources */,
 				EA44F37B20E0AE4A000ED01A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -177,6 +178,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +186,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,6 +237,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +245,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -280,7 +285,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jackngappsolutions.Todoey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -295,7 +300,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jackngappsolutions.Todoey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
